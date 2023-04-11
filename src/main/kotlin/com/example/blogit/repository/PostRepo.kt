@@ -1,13 +1,11 @@
 package com.example.blogit.repository
 
-import com.example.blogit.Model.User
+import com.example.blogit.Model.Post
 import org.springframework.data.repository.CrudRepository
-import org.springframework.data.repository.RepositoryDefinition
 import org.springframework.stereotype.Repository
 
 @Repository
-
-interface UserRepo :CrudRepository<User,Int>
+interface PostRepo :CrudRepository<Post,Int>
 {
 
 }
